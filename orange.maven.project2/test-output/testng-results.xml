@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-17T15:53:21 IST" name="Default suite" finished-at="2022-03-17T15:53:55 IST" duration-ms="34093">
+    <groups>
+    </groups>
+    <test started-at="2022-03-17T15:53:21 IST" name="Default test" finished-at="2022-03-17T15:53:55 IST" duration-ms="34093">
+      <class name="orange.maven.project.Login_To_Orange">
+        <test-method signature="launchApplication()[pri:1, instance:orange.maven.project.Login_To_Orange@741a8937]" started-at="2022-03-17T15:53:21 IST" name="launchApplication" finished-at="2022-03-17T15:53:38 IST" duration-ms="16610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginToApplication()[pri:2, instance:orange.maven.project.Login_To_Orange@741a8937]" started-at="2022-03-17T15:53:38 IST" name="loginToApplication" finished-at="2022-03-17T15:53:55 IST" duration-ms="17447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+      </class> <!-- orange.maven.project.Login_To_Orange -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
