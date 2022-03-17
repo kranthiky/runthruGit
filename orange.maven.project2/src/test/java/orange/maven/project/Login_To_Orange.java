@@ -37,10 +37,10 @@ public class Login_To_Orange extends Base_Orange{
 		Thread.sleep(3000);
 		Assert.assertEquals(appUrl+"/index.php/dashboard", driver.getCurrentUrl(),"something wrong logging in..!");
 				
-		Thread.sleep(3000);
-		driver.findElement(By.xpath("//span[contains(text(),'Apply Leave')]")).click();
-		Thread.sleep(2000);
-		Assert.assertEquals(appUrl+"/index.php/leave/applyLeave", driver.getCurrentUrl(),"Apply leave is NOT launched..!");
+	//	Thread.sleep(3000);
+	//	driver.findElement(By.xpath("//span[contains(text(),'Apply Leave')]")).click();
+	//	Thread.sleep(2000);
+	//	Assert.assertEquals(appUrl+"/index.php/leave/applyLeave", driver.getCurrentUrl(),"Apply leave is NOT launched..!");
 
 	}
 	
